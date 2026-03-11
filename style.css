@@ -1530,3 +1530,38 @@ strong {
         grid-template-columns: 1fr;
     }
 }
+
+/* ─── Game Section Styles ─── */
+.game-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.mechanics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.mechanic-card {
+    padding: 24px;
+    transition: var(--transition-medium);
+}
+
+.mechanic-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(108, 92, 231, 0.4);
+    box-shadow: var(--shadow-md);
+}
+
+.game-theory-img {
+    margin-top: 48px;
+}
+
+@media (max-width: 1024px) {
+    .mechanics-grid {
+        grid-template-columns: 1fr;
+    }
+}

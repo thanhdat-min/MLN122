@@ -24,6 +24,7 @@
         </div>
         <div class="nav-links">
             <a href="#hero" class="nav-link active" data-section="hero">Trang chủ</a>
+            <a href="#game" class="nav-link" data-section="game">Game Mô Phỏng</a>
             <a href="#intro" class="nav-link" data-section="intro">Đặt vấn đề</a>
             <a href="#theory" class="nav-link" data-section="theory">Lý thuyết</a>
             <a href="#features" class="nav-link" data-section="features">5 Đặc điểm</a>
@@ -39,6 +40,7 @@
     <!-- Mobile menu -->
     <div class="mobile-menu" id="mobileMenu">
         <a href="#hero" class="mobile-link" data-section="hero">Trang chủ</a>
+        <a href="#game" class="mobile-link" data-section="game">Game Mô Phỏng</a>
         <a href="#intro" class="mobile-link" data-section="intro">Đặt vấn đề</a>
         <a href="#theory" class="mobile-link" data-section="theory">Lý thuyết</a>
         <a href="#features" class="mobile-link" data-section="features">5 Đặc điểm</a>
@@ -71,7 +73,7 @@
                 trong việc điều tiết khủng hoảng kinh tế
             </p>
             <div class="hero-cta animate-on-scroll">
-                <a href="#intro" class="btn-primary">
+                <a href="#game" class="btn-primary">
                     Khám phá ngay
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M7 17L17 7M17 7H7M17 7V17" />
@@ -88,11 +90,86 @@
         </div>
     </section>
 
+    <!-- Game Section -->
+    <section class="section section-gradient" id="game">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Trò Chơi Mô Phỏng</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="game-intro animate-on-scroll glass-card" style="margin-bottom: 48px;">
+                <p>Trò chơi mà nhóm chúng em thiết kế là một <strong>mô hình mô phỏng thu nhỏ của nền kinh tế</strong>
+                    mà bài thuyết trình đang phân tích. Thông qua trò chơi này, nhóm muốn cho thấy rằng trong thực tế,
+                    như trường hợp Hàn Quốc, các tập đoàn lớn và nhà nước có <strong>mối quan hệ rất chặt chẽ</strong>,
+                    và quyết định của các tập đoàn có thể ảnh hưởng trực tiếp đến việc làm, GDP và xuất khẩu của cả nền
+                    kinh tế.</p>
+            </div>
+
+            <div class="game-images-grid animate-on-scroll">
+                <div class="section-image" style="margin-bottom: 0;">
+                    <img src="./images/game1.jpg" alt="Mô phỏng bàn cờ kinh tế" class="content-img"
+                        style="border-radius: var(--radius-md);">
+                </div>
+                <div class="section-image" style="margin-bottom: 0;">
+                    <img src="./images/game2.jpg" alt="Các thành phần trong game" class="content-img"
+                        style="border-radius: var(--radius-md);">
+                </div>
+            </div>
+
+            <div class="game-mechanics animate-on-scroll" style="margin-top: 64px;">
+                <h3 class="subsection-title">Cơ Chế Game & Bản Chất Kinh Tế</h3>
+                <div class="mechanics-content">
+                    <div class="mechanics-grid">
+                        <div class="mechanic-card glass-card">
+                            <div class="mechanic-icon" style="font-size: 2rem; margin-bottom: 12px;">💰</div>
+                            <h4 style="margin-bottom: 8px; color: var(--accent-secondary);">Trả lương mỗi vòng</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Công ty tuyển lao động và trả
+                                lương. Thu nhập tăng → tiêu dùng & sản xuất tăng → <strong>Tạo việc làm & Tăng
+                                    GDP</strong>.</p>
+                        </div>
+                        <div class="mechanic-card glass-card">
+                            <div class="mechanic-icon" style="font-size: 2rem; margin-bottom: 12px;">🧩</div>
+                            <h4 style="margin-bottom: 8px; color: var(--accent-secondary);">Liên minh & Sát nhập</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Phản ánh quá trình tích tụ và
+                                tập trung tư bản, hình thành <strong>tổ chức độc quyền</strong>.</p>
+                        </div>
+                        <div class="mechanic-card glass-card">
+                            <div class="mechanic-icon" style="font-size: 2rem; margin-bottom: 12px;">🌍</div>
+                            <h4 style="margin-bottom: 8px; color: var(--accent-secondary);">Mở rộng quốc tế</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Doanh nghiệp lớn mạnh mở rộng ra
+                                thị trường quốc tế → <strong>Thúc đẩy xuất khẩu & thu ngoại tệ</strong>.</p>
+                        </div>
+                        <div class="mechanic-card glass-card">
+                            <div class="mechanic-icon" style="font-size: 2rem; margin-bottom: 12px;">⚖️</div>
+                            <h4 style="margin-bottom: 8px; color: var(--accent-secondary);">Báo cáo Quản trò</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Mọi hành động báo quản trò tượng
+                                trưng cho vai trò <strong>Nhà nước điều tiết & can thiệp vĩ mô</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-image game-theory-img" style="margin-top: 32px">
+                    <img src="./images/game4.jpg" alt="Từ Trò Chơi Đến Thực Tế: Bản Đồ Chuyển Đổi Hệ Sinh Thái"
+                        class="content-img" style="border-radius: var(--radius-md);">
+                </div>
+            </div>
+
+            <div class="game-reality animate-on-scroll" style="margin-top: 64px;">
+                <h3 class="subsection-title">Hình Mẫu Thực Tế: Phép Màu Kinh Tế Hàn Quốc</h3>
+                <div class="section-image">
+                    <img src="./images/game3.jpg" alt="Hình Mẫu Thực Tế: Phép Màu Kinh Tế Hàn Quốc" class="content-img"
+                        style="border-radius: var(--radius-md);">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Intro / Đặt vấn đề -->
     <section class="section section-dark" id="intro">
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <span class="section-number">01</span>
+                <span class="section-number">02</span>
                 <h2 class="section-title">Đặt vấn đề</h2>
                 <div class="section-line"></div>
             </div>
@@ -152,7 +229,7 @@
     <section class="section section-gradient" id="theory">
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <span class="section-number">02</span>
+                <span class="section-number">03</span>
                 <h2 class="section-title">Cạnh tranh ở cấp độ Độc quyền</h2>
                 <div class="section-line"></div>
             </div>
@@ -270,7 +347,7 @@
     <section class="section section-dark" id="features">
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <span class="section-number">03</span>
+                <span class="section-number">04</span>
                 <h2 class="section-title">5 Đặc điểm kinh tế của CNTB Độc quyền</h2>
                 <p class="section-desc">Theo V. I. Lenin</p>
                 <div class="section-line"></div>
@@ -363,7 +440,7 @@
     <section class="section section-gradient" id="state-monopoly">
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <span class="section-number">03.b</span>
+                <span class="section-number">04.b</span>
                 <h2 class="section-title">Chủ nghĩa tư bản độc quyền nhà nước</h2>
                 <div class="section-line"></div>
             </div>
@@ -473,7 +550,7 @@
     <section class="section section-gradient" id="korea">
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <span class="section-number">04</span>
+                <span class="section-number">05</span>
                 <h2 class="section-title">Phân tích trường hợp Hàn Quốc</h2>
                 <div class="section-line"></div>
             </div>
@@ -582,7 +659,7 @@
     <section class="section section-dark" id="impact">
         <div class="container">
             <div class="section-header animate-on-scroll">
-                <span class="section-number">05</span>
+                <span class="section-number">06</span>
                 <h2 class="section-title">Nhận xét – Tác động hai mặt</h2>
                 <div class="section-line"></div>
             </div>
